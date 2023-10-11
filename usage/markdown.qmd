@@ -1,0 +1,17 @@
+---
+title: Markdown basics
+slug: markdown
+format:
+  html: default
+  revealjs:
+    output-file: markdown-revealjs.html
+  docx: default
+  odt: default
+  pptx: default
+---
+
+## This header
+
+> quote
+
+### Heay

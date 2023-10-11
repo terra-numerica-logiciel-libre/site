@@ -1,0 +1,11 @@
+---
+title: "@SmartEdTech"
+---
+
+> Building the education of the XXI century by addressing public, social and economic issues.
+
+## Welcome to the @SmartEdtech git community
+
+The msc SmartEdtech master is a international master hosted by the Université Côte d'Azur in Nice France with an incredible community of hundred of students from all other the world.
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1EP6EeJ4OzelfgyQNsgvoGkhUykboArYe&ehbc=2E312F" width="640" height="480"></iframe>

@@ -1,0 +1,21 @@
+---
+title: Discover quarto
+---
+
+Quarto is based on [pandoc](https://pandoc.org/) «a universal document converter» that convert between multiple formats including.
+
+- markdown
+- html
+- docx
+- odt
+- pptx
+- pdf via latex
+- and many others.
+
+The traditionnal workflow is to use markdown source and convert it to wathever document format you want.
+
+Advantages of markdown includes
+
+- easy to read
+- easy to write
+- descriptive and extensible to fit your use-cases.

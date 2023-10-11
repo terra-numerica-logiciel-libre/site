@@ -1,0 +1,34 @@
+project:
+  type: website
+  title: "@SmartEdTech"
+
+website:
+  title: "@SmartEdTech"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+        icon: house
+      - href: usage/markdown.qmd
+        text: Learn markdown
+        icon: file-post
+  favicon: SmartEdTech.png
+  twitter-card: true
+  open-graph: true
+  site-url: https://www.lyceum.fr
+  sidebar:
+    contents:
+      - section: M1
+        contents: M1/**/index.qmd
+      - text: "---"
+      - section: M2
+        contents: M2/**/index.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    date: last-modified
+
+

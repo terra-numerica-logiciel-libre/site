@@ -1,0 +1,5 @@
+---
+title: "M2 page"
+---
+
+> This page presents you M2 smarties.
