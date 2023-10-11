@@ -15,7 +15,6 @@ website:
   favicon: SmartEdTech.png
   twitter-card: true
   open-graph: true
-  site-url: https://www.lyceum.fr
   sidebar:
     contents:
       - section: M1
