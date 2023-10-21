@@ -12,6 +12,8 @@ format:
 
 Markdown is just a plain text format that is designed to be easy to write, and, even more importantly, easy to read.
 
+It just requires a little training but then it is very fast to edit.
+
 For example:
 
 ```md
