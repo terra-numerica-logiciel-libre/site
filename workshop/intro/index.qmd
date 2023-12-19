@@ -1,0 +1,9 @@
+---
+title: Introduction to Free and Open Source Software (FOSS)
+author:
+  - Alan CASTELLINO
+format:
+  html: default
+---
+
+The slides are available [here](demo.md.html).

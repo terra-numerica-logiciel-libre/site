@@ -2,7 +2,7 @@
 title: The power of plain text
 subtitle: a.k.a. a gentle introduction to personal knowledge management using `Zettlr`
 author:
-  - Alan CASTELLINO, Benjamin ABEL
+  - Alan CASTELLINO (author), Benjamin ABEL (facilitator)
 format:
   html: default
   revealjs:
@@ -19,7 +19,24 @@ format:
     }
 </style>
 
-# Why?
+# Goal and overview
+
+## Objectives
+
+- Figure out why you should get familiar with knowledge management and content publishing
+- Figure out the advantages of plain text and multi-format exporting
+- Get familiar with `Markdown` and basic exporting using a simple tool
+- Start to elaborate personal PKM practices
+- Experience how a tool like `Zettlr` can help with the PKM process
+
+## Overview
+
+Have a look at what you can get with a bit of practical knowledge of plain text workflows (`quarto`) and `GitHub`: [https://smart-edtech.github.io/smarties/](https://smart-edtech.github.io/smarties/)
+
+- Automatic build of the website
+- Multi-format exporting avairable
+
+# Basics
 
 ## _Raison d'être_ of Personal Knowledge Management (PKM)
 
@@ -30,6 +47,62 @@ format:
 ## What is PKM?
 
 PKM is the field that precisely studies that issue: how, as individuals, can we thrive in the informational age? How can we make the most out of information technologies without feeling overwhelmed?
+
+## A plethora of tools
+
+`Notion`, `Roam`, `Tana`, `Obsidian`, `Logseq`, `AnyType`, `Affine`, `TiddlyWiki`, `Zettlr`...
+
+- Local vs Web-aware vs Web-based
+- FOSS vs Freeware vs Paid
+- Specific ↔ Extensible ↔ Malleable
+- User-friendly?
+
+## Advantages of plain text editing
+
+- Lightweight: you can work with just a simple text editor. You can store your files anywhere.
+- Easily readable and writable: a whole range of apps work with plain text. It is also easy to manipulate programmatically.
+- No lock-in: you can use your text files in different apps for different purposes. You can switch to a new app that better fits your needs seamlessly.
+- Teaches you about computing and the _hacker mindset_ in a hands-on way.
+
+## Meet `Zettlr`
+
+`Zettlr` is:
+
+- Designed with simplicity in mind
+- Free and Open-Source
+- Web-aware
+- Supported by a community (`Discord`, `Reddit`)
+- Specific but plays nicely with other tools (bibliography, export)
+
+## Install ` Zettlr`
+
+- Simply go to the official website: [zettlr.com/download](https://zettlr.com/download)
+- Install and open it.
+- If you write academic articles, you will need `LaTeX` at some point. Simply use `MikTeX` (this is not the point today).
+
+## `Markdown` syntax
+
+- `# Section heading`
+
+  `## Subsection heading`...
+
+- This is `_emphasized_` and this is `**strong**`
+- This is a `- List item`
+- This is a `1. Numberred item`
+- This is a `[link](https://zettlr.com)`
+- This is an `![cute_cat.png](image)`
+- `YAML`: metadata and options
+
+## Basics and Exporting
+
+- Create a new file
+- Fill it up with some headings and content.
+- You have some shortcut icons (e.g. links and images)
+- Left pane: files explorer
+- Right pane: outline and more
+- Export button: select one of the available formats (except `LaTeX`)
+
+# Diving deeper
 
 ## Key skills in PKM
 
@@ -68,70 +141,15 @@ We will use the GUSC model. It can be seen as a concretization of the SECI model
 - **Share**: produce artifacts to make the learning process visible
 - **Connect**: collaborate and exchange with others
 
-## A plethora of tools
-
-`Notion`, `Roam`, `Tana`, `Obsidian`, `Logseq`, `AnyType`, `Affine`, `TiddlyWiki`, `Zettlr`...
-
-- Local vs Web-aware vs Web-based
-- FOSS vs Freeware vs Paid
-- Specific ↔ Extensible ↔ Malleable
-- User-friendly?
-
-→ We will use `Zettlr`
-
-## Advantages of plain text editing
-
-- Lightweight: you can work with just a simple text editor. You can store your files anywhere.
-- Easily readable and writable: a whole range of apps work with plain text. It is also easy to manipulate programmatically.
-- No lock-in: you can use your text files in different apps for different purposes. You can switch to a new app that better fits your needs seamlessly.
-- Teaches you about computing and the _hacker mindset_ in a hands-on way.
-
-# How?
-
-## Goal
+## Back to practice
 
 → We will see how `Zettlr` can help us implement strategies for the first 3 steps of the GUSC model (**Get**, **Understand**, **Share**).
-
-`Zettlr` is:
-
-- Free and Open-Source
-- Web-aware
-- Supported by a community (`Discord`, `Reddit`)
-- Specific but plays nicely with other tools (bibliography, export)
 
 ## GUSC in ` Zettlr`
 
 ![](zettlr_gusc.png)
 
-## Install ` Zettlr`
-
-- Simply go to the official website: [zettlr.com/download](https://zettlr.com/download)
-- Install and open it.
-- If you write academic articles, you will need `LaTeX` at some point. Simply use `MikTeX` (this is not the point today).
-
-## `Markdown` syntax
-
-- `# Section heading`
-
-  `## Subsection heading`...
-
-- This is `_emphasized_` and this is `**strong**`
-- This is a `- List item`
-- This is a `1. Numberred item`
-- This is a `[link](https://zettlr.com)`
-- This is an `![cute_cat.png](image)`
-- `YAML`: metadata and options
-
-## Basics and Exporting
-
-- Create a new file
-- Fill it up with some headings and content.
-- You have some shortcut icons (e.g. links and images)
-- Left pane: files explorer
-- Right pane: outline and more
-- Export button: select one of the available formats (except `LaTeX`)
-
-## References: `Zotero` + ` Zettlr`
+## **Get** phase: referencing with `Zotero` and ` Zettlr`
 
 1. Install `Zotero`. You will manage all your references from here.
 2. Install the ` BetterBibTeX` plugin for `Zotero`
@@ -148,17 +166,21 @@ We will use the GUSC model. It can be seen as a concretization of the SECI model
 ::: {#refs}
 :::
 
-## Zettelkasten in `Zettlr`
+## **Understand** phase: Zettelkasten in `Zettlr`
+
+A methodology to make sense of your notes.
+
+Some insights:
 
 - Use #tags.
 - Link to other files, such as in [[about_tags]].
 - Give unique IDs to files such as [[20231216180452]] Another file
 
-## Graph view:
+## **Understand** phase: the Graph view:
 
 ![](graph_view.png){width=80%}
 
-## Extending export capabilities
+## **Share** phase: extending export capabilities
 
 - Change how things look
 - Add new export possibilities thanks to `Pandoc`
@@ -171,7 +193,7 @@ We will use the Assets dialog: File > Preferences > Manage assets
 - Select the `HTML` profile. On line 46, add `custom.css` between the brackets.
 - You can also add `css: custom.css` to the YAML on each file you want to export with `custom.css`.
 
-## Extending export capabilities (cont'd)
+## **Share** phase: extending export capabilities (cont'd)
 
 **Challenge 2: enable export to `PowerPoint` presentations**
 
@@ -184,3 +206,5 @@ We will use the Assets dialog: File > Preferences > Manage assets
 - We provide `custom.docx`, `custom.odt` and `custom.pptx`
 - Modify the slide masters in the provided template
 - For `docx/odt`, modify the styles.
+
+# Thank you!
