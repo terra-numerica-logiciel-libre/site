@@ -4,6 +4,13 @@ subtitle: a.k.a. a gentle introduction to personal knowledge management using `Z
 author:
   - Alan CASTELLINO, Benjamin ABEL
 theme: white
+format:
+  html: default
+  revealjs:
+    output-file: markdown-revealjs.html
+  docx: default
+  odt: default
+  pptx: default
 ---
 
 <style>
