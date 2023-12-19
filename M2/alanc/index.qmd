@@ -2,4 +2,4 @@
 title: "Alan's test page"
 ---
 
-Some content.
+Modify it on `GitHub` and it is automatically published to the website.
