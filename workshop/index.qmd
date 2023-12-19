@@ -1,5 +1,5 @@
 ---
-title: Seconde
+title: Workshops
 listing:
   contents: /*/index.qmd
 ---
