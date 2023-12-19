@@ -22,6 +22,9 @@ website:
       - text: "---"
       - section: M2
         contents: M2/**/index.qmd
+      - text: "---"
+      - section: Workshops
+        contents: workshop/**/index.qmd
 
 format:
   html:
