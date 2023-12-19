@@ -3,11 +3,11 @@ title: The power of plain text
 subtitle: a.k.a. a gentle introduction to personal knowledge management using `Zettlr`
 author:
   - Alan CASTELLINO, Benjamin ABEL
-theme: white
 format:
   html: default
   revealjs:
     output-file: markdown-revealjs.html
+    theme: white
   docx: default
   odt: default
   pptx: default
