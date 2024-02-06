@@ -3,3 +3,5 @@ title: "M1 page"
 ---
 
 > This page presents you M1 smarties.
+
+Quick test.
